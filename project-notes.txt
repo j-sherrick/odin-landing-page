@@ -1,0 +1,4 @@
+one problem i encountered is in trying to get the alternating background colors to stretch the entire width of the page,
+while keeping the content itself centered along the horizontal axis and constrained to a maximum width. In other words, the
+background wants to stick to the width of the content and not stretch the whole page, so setting a page container with a
+maximum width only lets you set a background color for that width.
