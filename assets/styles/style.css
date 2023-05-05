@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 
+/* MAIN PAGE STYLES */
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font: 400 1.1em Roboto, 'sans-serif';
     justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    font: 400 1.1em Roboto, 'sans-serif';
 }
 
 button {
@@ -17,68 +19,33 @@ button {
     border: none;
     border-radius: 8px;
 }
-.header, .footer {
-    background-color: #1F2937;
-    color: white;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .center-flex {
     width: 1000px;
-    display: flex;
-    flex: 1;
+    display:flex;
     justify-content: space-between;
 }
 
-.header-bar {
-    min-height: 50px;
-}
+/* END MAIN PAGE STYLES */
 
-.header-bar > .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;
+/* INFORMATION SECTION */
+.information {
+    text-align: center;
     display: flex;
-    align-items: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
-.header-bar > nav {
-    display: flex;
-    align-items: center;
-    gap: 18px;
+.information > h3 {
+    flex-shrink: 0;
+    width: 100%;
 }
 
-nav a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #E5E7Eb;
+.card {
+    width: 200px;
+    flex-shrink: 0.75;
 }
+/* END INFORMATION SECTION */
 
-.hero {
-}
+/* QUOTE SECTION */
 
-.hero > .hero-left {
-    width: 450px;
-    flex: 0 0 1;
-    font-weight: 900;
-    font-size: 48px;
-    color: #F9FAF8;
-}
-
-.hero-left > .secondary-text {
-    font-size: 18px;
-    font-weight: 400;
-    color: #F9FAF8;
-}
-
-.hero > .hero-right {
-    width: 450px;
-    flex: 0 0 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #E5E7Eb;
-}
+/* END QUOTE SECTION */
