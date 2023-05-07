@@ -81,9 +81,11 @@ button {
     color: #F9FAF8;
 }
 
-.information h3 {
+.information h2 {
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.75em;
+    font-weight: 900;
+    margin: 0 0 75px 0;
 }
 
 .information > .container {
@@ -91,6 +93,7 @@ button {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 75px 0;
 }
 
 .info-cards {
@@ -115,26 +118,63 @@ button {
     border-radius: 8px;
     width: 100%;
     height: 150px;
+    margin: 0 0 15px;
 }
 
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 100;
     font-style: italic;
+    padding: 75px 0;
+}
+
+.quote > .container {
+    width: 800px;
 }
 
 .quote-author {
-    font-size: 18px;
+    font-size: 0.7em;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
+    text-align: right;
 
 }
 
+.call > .container {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    height: 135px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 75px auto;
+}
 
+.call button {
+    border: 3px solid #E5E7EB;
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
 
 .header, .footer {
     background-color: #1F2937;
     color: #E5E7EB;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+}
+
+.footer > .container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
